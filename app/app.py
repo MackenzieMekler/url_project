@@ -7,7 +7,7 @@ import json
 
 cnx = mysql.connector.connect(
                 user="root",
-                password="Mack0319",
+                password="Insert Password Here",
                 host="db",
                 port="3306",
                 database="urlshorten",
