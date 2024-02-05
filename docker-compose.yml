@@ -6,7 +6,7 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: Mack0319
+      MYSQL_ROOT_PASSWORD: Insert Password Here
     volumes:
       - ./db:/docker-entrypoint-initdb.d/:ro
   app:
